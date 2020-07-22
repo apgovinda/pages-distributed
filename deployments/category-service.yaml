@@ -4,7 +4,7 @@ metadata:
   labels:
     app: category
   name: category
-  namespace: aditya
+  namespace: govinda
 spec:
   ports:
   - port: 8082

@@ -4,14 +4,14 @@ metadata:
   labels:
     app: category
   name: category
-  namespace: aditya
+  namespace: govinda
 spec:
   volumes:
   - name: log-volume
     persistentVolumeClaim:
         claimName: log-persistent-claim
   containers:
-  - image: adityapratapbhuyan/category:distributed
+  - image: apgovinda/category:distributed
     imagePullPolicy: Always
     name: category
     volumeMounts:
