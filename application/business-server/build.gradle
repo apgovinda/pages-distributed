@@ -1,0 +1,17 @@
+apply from: "$projectDir/../server.gradle"
+
+group = 'org.edu.dell.kube'
+version = '0.0.1-SNAPSHOT'
+description("Business Server")
+
+dependencies {
+    implementation project(":components:category")
+    implementation project(":components:business")
+
+}
+
+test.environment([
+        "SPRING_DATASOURCE_USERNAME": "root",
+        "SPRING_DATASOURCE_PASSWORD": "root",
+        "SPRING_DATASOURCE_URL": "jdbc:mysql://localhost:3306/business?createDatabaseIfNotExist=true&useSSL=false&user=root",
+])

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: log-persistent-claim
+  namespace: govinda
+spec:
+  volumeMode: Filesystem
+  storageClassName: pv-govinda
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 500Mi

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4325f5b8-3c89-424e-b9e0-c0a606724a6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/pipeline.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pipeline.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/app-log-pv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/app-log-pv.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/app-log-pvc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/app-log-pvc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/business-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/business-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/business-pod-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/business-pod-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/business-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/business-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/category-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/category-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/category-pod-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/category-pod-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/category-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/category-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/dist-namespace.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/dist-namespace.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/mysql-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/mysql-pv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-pv.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/mysql-pvc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-pvc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/mysql-secret.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-secret.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployments/mysql-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-service.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1f37yvYFIJDQvwhIYVYO67vYBo4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4325f5b8-3c89-424e-b9e0-c0a606724a6a" name="Default Changelist" comment="" />
+      <created>1595435179823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595435179823</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="193" width="984" height="682" key="find.popup" timestamp="1595436400490">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="616" y="193" width="984" height="682" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1595436400490" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+apply from: "$projectDir/../server.gradle"
+
+group = 'org.dell.edu.kube'
+version = '0.0.1-SNAPSHOT'
+description("Category Server")
+
+dependencies {
+    implementation project(":components:category")
+}
+
+test.environment([
+        "SPRING_DATASOURCE_USERNAME": "root",
+        "SPRING_DATASOURCE_PASSWORD": "root",
+        "SPRING_DATASOURCE_URL": "jdbc:mysql://localhost:3306/category?createDatabaseIfNotExist=true&useSSL=false&user=root",
+])
