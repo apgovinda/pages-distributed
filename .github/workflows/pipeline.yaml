@@ -17,16 +17,10 @@ jobs:
           java-version: 11
       - name: Start Ubuntu MySQL
         run: sudo systemctl start mysql.service
-      - name: Build-Category with Gradle
-        uses: eskatos/gradle-command-action@v1
-        with:
-          arguments: application/category-server:build
-          gradle-version: 6.4.1
-      - name: Build-Business with Gradle
-        uses: eskatos/gradle-command-action@v1
-        with:
-          arguments: application/business-server:build
-          gradle-version: 6.4.1
+      - name: Build with Gradle
+        run: |
+          ./gradlew application:category-server:build
+          ./gradlew application:business-server:build
       - name: Verify Build
         run: |
           ls -l application/business-server/build/libs
