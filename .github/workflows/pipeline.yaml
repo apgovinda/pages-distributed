@@ -20,8 +20,8 @@ jobs:
       - name: Build with Gradle
         uses: eskatos/gradle-command-action@v1
         with:
-          arguments: application:business-server:build & application:category-server:build
-          gradle-version: 6.4
+          arguments: :application:business-server:build & :application:category-server:build
+          gradle-version: 6.4.1
       - name: Verify Build
         run: |
           ls -l application/business-server/build/libs
