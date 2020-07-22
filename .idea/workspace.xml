@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4325f5b8-3c89-424e-b9e0-c0a606724a6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/pipeline.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pipeline.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/app-log-pv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/app-log-pv.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/app-log-pvc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/app-log-pvc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployments/business-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/business-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/business-pod-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/business-pod-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/business-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/business-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployments/category-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/category-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/category-pod-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/category-pod-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/category-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/category-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/dist-namespace.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/dist-namespace.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/mysql-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/mysql-pv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-pv.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/mysql-pvc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-pvc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/mysql-secret.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-secret.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployments/mysql-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployments/mysql-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
